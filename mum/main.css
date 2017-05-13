@@ -10,6 +10,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 90px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the */
+    font-size:10px;
 }
 
 /* The navigation menu links */
@@ -53,6 +54,10 @@
     font-color: #0096db;
 }
 
+li{
+  margin: 10px 0;
+}
+
 .carolineOn{
     background-color: #bad7ef;
     width: 90px;
@@ -78,14 +83,19 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 body {
     padding-top: 85px;
-    padding-left: 220px;
-    padding-right: 20px;
+    padding-left: 230px;
+    padding-right: 30px;
     font-family:'Arial';
 }
 .aboutimg{
     border-style: solid;
     border-color: #12437D;
     padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.imgcell {
+    width: 40%;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
