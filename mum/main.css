@@ -51,7 +51,8 @@
     width: 100%; /* 0 width - change this with JavaScript */
     background-color: #bad7ef; /* Black*/
     font-family:'Trebuchet MS';
-    font-color: #0096db;
+    font-color: gray;
+    font-size: 10px;
 }
 
 li{
