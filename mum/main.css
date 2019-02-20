@@ -64,6 +64,15 @@ li{
     background-color: #bad7ef;
     width: 90px;
 }
+
+.quote{
+    background-color: #bad7ef;
+    font-style: italic;
+    font-size:12px;
+    width: 90%;
+}
+
+
 .rotateimg180 {
   -webkit-transform:rotate(180deg);
   -moz-transform: rotate(180deg);
